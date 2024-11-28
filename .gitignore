@@ -1,1 +1,12 @@
-./venv
+# Ignore virtual environment
+.venv/
+
+# Ignore data folder
+data/
+
+# Optional: Ignore .DS_Store (common on macOS)
+.DS_Store
+
+# Optional: Ignore Python bytecode files
+__pycache__/
+*.pyc
